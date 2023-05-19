@@ -60,5 +60,39 @@
 // }
 // myTest();
 
+// if/else condition
+// $t=date("H");
+// if($t < "20"){
+//     echo "have a good day";
+// }
+
+
+// $x = 1;
+// while loop
+// while($x <= 5) {
+//     echo "The number is: $x <br>";
+//     $x++;
+// }
+
+// do...while loop
+// do{
+//     echo "The number is: $x <br>";
+//     $x++;
+// }while($x <= 5);
+
+// for loop
+// for ($x = 0; $x <= 10; $x++) {
+//     echo "The number is: $x <br>";
+// }
+
+// foreach loop
+// $colors=array("red", "blue", "green");
+// foreach($colors as $value){
+//     echo "$value <br>";
+// }
+$age=array("peter"=>"20", "eli"=>"28");
+foreach($age as $x=>$value){
+    echo "$x=$value<br>";
+}
 
 ?>
